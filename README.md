@@ -1,2 +1,0 @@
-# openhouse
-NgeAnnPoly Open House
