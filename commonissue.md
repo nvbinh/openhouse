@@ -26,3 +26,24 @@ http://www.codechewing.com/library/automatically-generate-css-sprites-with-sass/
 .my-cart-blue-icon-extended {
   @include grey-icon-sprite(cart-blue);
 }
+
+4. If you just want your layout to stretch to 100% height of the browser
+
+<<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<div class="wrapper"></div>
+</body>
+</html>
+
+html, body {
+	width: 100%;
+	height: 100%;
+}
+
+.wrapper {
+	min-height: 100%;
+}

@@ -1,0 +1,37 @@
+/*Introduction Page*/
+.intro-page {
+	&__container {
+		min-height: 100%;
+		background: url('../../images/introduction-banner.jpg') no-repeat 100% 100%;
+
+		.content {
+			&__heading {
+				background: url('../../images/intro-heading.png') no-repeat 100% 100%;
+				width: 396px;
+				height: 312px;
+				display: inline-block;
+			}
+			&__left {
+				text-align: center;
+			}
+			&__right {
+
+			}
+			&__watch__story {
+				text-align: center;
+				.text {
+					display: block;
+					text-transform: uppercase;
+					color: $white;
+				}
+			}
+			&__author {
+				text-align: center;
+				.summary {
+					display: block;
+					margin: -20px 20% 0 20%;
+				}
+			}
+		}
+	}
+}
